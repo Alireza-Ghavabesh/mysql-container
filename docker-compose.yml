@@ -1,0 +1,7 @@
+services:
+  mariadb:
+    image: db_image
+    environment:
+      MYSQL_ROOT_PASSWORD: jhddf23&!Hdw
+    ports:
+      - "3307:3306"  # Change 3306 to 3307 on the host
